@@ -24,7 +24,7 @@ export class UsersController {
   @ApiOperation({
     summary: 'List users',
     description:
-      'Supports URI versioning (/v1/users, /v2/users) and optional x-api-version header on /users.',
+      "To access different versions, use the URI path `/v1/users` or `/v2/users`, or use the optional `x-api-version` header for fetching the user's on the base `/users` path.",
   })
   @ApiHeader({
     name: 'x-api-version',
