@@ -7,7 +7,7 @@ export const SWAGGER_JSON_PATH = 'docs-json';
 
 export function setupSwagger(app: INestApplication): void {
   const config = new DocumentBuilder()
-    .setTitle('HighLevel Assignment API')
+    .setTitle('RouteSpec API')
     .setDescription(
       'Lightweight API versioning example with explicit v1 and v2 users endpoints.',
     )
