@@ -1,4 +1,6 @@
-# HighLevel Assignment: Lightweight API Versioning & Metadata (NestJS)
+# RouteSpec: API Versioning and Metadata Toolkit
+
+RouteSpec is a NestJS and TypeScript toolkit for API versioning, version-specific response formatting, runtime route metadata, and OpenAPI documentation. It keeps version handling separate from business logic.
 
 ## Quick Start
 
